@@ -11,4 +11,5 @@ int main()
   n--;
 }
 printf("factorial=%ld",fact);
-} return 0;
+return 0;
+}
