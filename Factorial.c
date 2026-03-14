@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
   int n;
   long fact=1;
@@ -10,5 +10,5 @@ void main()
   fact=fact*n;
   n--;
 }
-printf("factorial=%d",fact);
-}
+printf("factorial=%ld",fact);
+} return 0;
